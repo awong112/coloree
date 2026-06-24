@@ -1,0 +1,1594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>Coloree — Nail & Spa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">Coloree</a>
+  <ul class="nav-center">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+  </ul>
+  <button class="nav-book" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Book Now</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1 class="hero-title">Natural Beauty,<br>Elevated Care.</h1>
+    <p class="hero-sub">Where premium meets artistry with unmatched service and ultimate relaxation.</p>
+  </div>
+  <img src="images/hero.jpg" alt="Coloree nail studio" class="hero-image"/>
+  <div class="hero-bottom">
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">6K+</div>
+        <div class="stat-label">Clients Served</div>
+      </div>
+      <div>
+        <div class="stat-num">200+</div>
+        <div class="stat-label">Shades In-House</div>
+      </div>
+      <div>
+        <div class="stat-num stat-num--rating">4.9 <span class="star">★</span></div>
+        <div class="stat-label">Google Rating</div>
+      </div>
+    </div>
+    <button class="btn-dark" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">BOOK NOW</button>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-inner">
+    <span class="ticker-item">Nail Extensions</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Acrylic</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Dipping Powder</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Gel Extension</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Natural Manicures</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Pedicures</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Nail Art &amp; Design</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Waxing</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Nail Extensions</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Acrylic</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Dipping Powder</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Gel Extension</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Natural Manicures</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Pedicures</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Nail Art &amp; Design</span>
+    <span class="ticker-item ticker-dot">✦</span>
+    <span class="ticker-item">Waxing</span>
+    <span class="ticker-item ticker-dot">✦</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <p class="section-eyebrow fade-up">What we offer</p>
+  <h2 class="section-title fade-up">Every service, <em>curated for you.</em></h2>
+  <div class="services-slider-wrap">
+    <button type="button" class="services-arrow services-arrow--prev" aria-label="Previous slide">&#8592;</button>
+    <div class="services-slider">
+      <div class="services-track">
+        <div class="services-slide">
+          <div class="service-card">
+            <div class="service-card-img img-natural"><img src="images/service-natural.PNG" alt="Natural Manicure" class="service-img"/></div>
+            <div class="service-card-body">
+              <div class="service-card-name">Natural Manicure</div>
+              <p class="service-card-desc">Classic, precise, and signature manicure care for healthy, polished nails.</p>
+              <span class="service-card-price">Starting $25</span>
+            </div>
+          </div>
+        </div>
+        <div class="services-slide">
+          <div class="service-card">
+            <div class="service-card-img img-acrylic"><img src="images/service-acrylic.PNG" alt="Acrylic" class="service-img"/></div>
+            <div class="service-card-body">
+              <div class="service-card-name">Acrylic</div>
+              <p class="service-card-desc">Sculpted sets, color custom options, and serious staying power.</p>
+              <span class="service-card-price">Starting $55</span>
+            </div>
+          </div>
+        </div>
+        <div class="services-slide">
+          <div class="service-card">
+            <div class="service-card-img img-gel"><img src="images/service-gel.PNG" alt="Gel Extension" class="service-img"/></div>
+            <div class="service-card-body">
+              <div class="service-card-name">Gel Extension</div>
+              <p class="service-card-desc">Natural-appearance builds with zero stress and less damage.</p>
+              <span class="service-card-price">Starting $65</span>
+            </div>
+          </div>
+        </div>
+        <div class="services-slide">
+          <div class="service-card">
+            <div class="service-card-img img-pedicure"><img src="images/service-pedicure.jpg" alt="Pedicure" class="service-img"/></div>
+            <div class="service-card-body">
+              <div class="service-card-name">Pedicure</div>
+              <p class="service-card-desc">Restorative treatments from classic essentials to luxurious collagen and jelly pedis.</p>
+              <span class="service-card-price">Starting $35</span>
+            </div>
+          </div>
+        </div>
+        <div class="services-slide">
+          <div class="service-card">
+            <div class="service-card-img img-nailart"><img src="images/service-nailart.PNG" alt="Nail Art &amp; Design" class="service-img"/></div>
+            <div class="service-card-body">
+              <div class="service-card-name">Nail Art &amp; Design</div>
+              <p class="service-card-desc">Stickers, ombre, chrome, cat eye, and custom art — endless ways to express yourself.</p>
+              <span class="service-card-price">Starting $5</span>
+            </div>
+          </div>
+        </div>
+        <div class="services-slide">
+          <div class="service-card">
+            <div class="service-card-img img-waxing"><img src="images/service-waxing.jpg" alt="Waxing" class="service-img"/></div>
+            <div class="service-card-body">
+              <div class="service-card-name">Waxing</div>
+              <p class="service-card-desc">Precise face and body waxing for clean, lasting results from brow to full legs.</p>
+              <span class="service-card-price">Starting $10</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="services-arrow services-arrow--next" aria-label="Next slide">&#8594;</button>
+    <div class="services-dots" id="services-dots"></div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu-section" id="menu">
+  <div class="menu-inner">
+
+    <h2 class="section-title menu-title"><em>The Menu</em></h2>
+
+    <div class="menu-tabs-wrap">
+      <div class="menu-tabs" role="tablist">
+        <button class="menu-tab is-active" role="tab" data-panel="nail-extensions">NAIL EXTENSIONS</button>
+        <button class="menu-tab" role="tab" data-panel="natural-manicures">NATURAL MANICURES</button>
+        <button class="menu-tab" role="tab" data-panel="pedicures">PEDICURES</button>
+        <button class="menu-tab" role="tab" data-panel="kids">KID'S SERVICES</button>
+        <button class="menu-tab" role="tab" data-panel="add-ons">ADD-ON SERVICES</button>
+        <button class="menu-tab" role="tab" data-panel="waxing">WAXING</button>
+      </div>
+    </div>
+
+    <!-- NAIL EXTENSION -->
+    <div class="menu-panel" id="panel-nail-extensions">
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Nail Extensions</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Soak off with services</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Nail Repair w/ service</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Special shape</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Length</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Add Cuticle Trimming</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Paraffin/Collagen Gloves</span><span class="menu-item-price">$10</span></div></div>
+        </div>
+      </div>
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Acrylic</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Full Set with Gel</span><span class="menu-item-price">$55+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Refill with Gel</span><span class="menu-item-price">$45+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">White/Pearl Tips Full Set</span><span class="menu-item-price">$50+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Color Powder Full Set (same color)</span><span class="menu-item-price">$55+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Color Powder Refill (same color)</span><span class="menu-item-price">$50+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Color Powder Refill (different color)</span><span class="menu-item-price">$55+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Pink &amp; White Full Set (2 colors)</span><span class="menu-item-price">$65+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Pink &amp; White Refill (2 colors)</span><span class="menu-item-price">$60+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Ombre Fullset (2 colors)</span><span class="menu-item-price">$65+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Ombre Refill (2 colors)</span><span class="menu-item-price">$65+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Pink &amp; White / Ombre Refill (Pink Only)</span><span class="menu-item-price">$50+</span></div></div>
+        </div>
+      </div>
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Dipping</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Dipping Powder</span><span class="menu-item-price">$50+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Dipping Powder w/ tips</span><span class="menu-item-price">$60+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Pink &amp; White Dipping</span><span class="menu-item-price">$60+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Ombre Dipping</span><span class="menu-item-price">$65+</span></div></div>
+        </div>
+      </div>
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Gel Extension</h3>
+          <div class="menu-divider"></div>
+        </div>
+          <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Full Set</span><span class="menu-item-price">$65</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Refill</span><span class="menu-item-price">$55</span></div></div>
+        </div>
+        <p class="menu-panel-note">Includes Gel X, Gel Builder, and Hybrid Gel.</p>
+
+      </div>
+
+    </div>
+
+    <!-- NATURAL MANICURES -->
+    <div class="menu-panel is-hidden" id="panel-natural-manicures">
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Natural Manicures</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">SHELLAC / GEL Manicure</span>
+              <span class="menu-item-price">$40</span>
+            </div>
+            <p class="menu-item-desc">Classic Manicure plus Gel polish. The polish is cured with an LED light. The nails are instantly dry and last longer than regular nail polish.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Classic Manicure</span>
+              <span class="menu-item-price">$25</span>
+            </div>
+            <p class="menu-item-desc">Service includes hand soak, cuticle trim, nails cut and shaped, and lotion.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Deluxe Manicure</span>
+              <span class="menu-item-price">$35</span>
+            </div>
+            <p class="menu-item-desc">Tropical Scrub, Collagen Mask, Hot Towels Wrap, and a 5-minute hand massage with lotion.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Signature Manicure</span>
+              <span class="menu-item-price">$50</span>
+            </div>
+            <p class="menu-item-desc">Sea Salt Soak, Salt &amp; Oil Scrub, Collagen Mask, Hot Candle Butter, Hot Towels Wrap, 10-minute hand massage with lotion, and a Paraffin Treatment or Collagen Gloves.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-subcategory">
+        <div class="menu-addons-header">Add-Ons Available</div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Gel remove w/ service</span><span class="menu-item-price">$5</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Acrylic/Dip takeoff w/ manicure</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Paraffin/Collagen Gloves</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Gel Polish add on</span><span class="menu-item-price">$15</span></div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PEDICURES -->
+    <div class="menu-panel is-hidden" id="panel-pedicures">
+
+      <p class="menu-panel-note">Single use of disposable liner, file, buffer, and pumice stone included.</p>
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Pedicures</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Keep It Classic</span>
+              <span class="menu-item-price">$35</span>
+            </div>
+            <span class="menu-item-tagline">No time, no worries</span>
+            <span class="menu-item-duration">Est. 30 Mins</span>
+            <p class="menu-item-desc">Cleansing, shaping, cuticle care, nourishing massage, hot towel, and your choice of polish.</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Essential Glow</span>
+              <span class="menu-item-price">$50</span>
+            </div>
+            <span class="menu-item-tagline">Clean, Classic and Essential.</span>
+            <span class="menu-item-duration">Est. 45 Mins</span>
+            <p class="menu-item-desc">Sea Salt Soak, Callus Treatment, Tropical Citrus Scrub, Hot Stone Massage, Hot Towels Wrap, and your choice of polish.</p>
+            <span class="menu-item-perk">🍷 Free Complimentary Wine (Limit 1 Per Customer)</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Signature Glow</span>
+              <span class="menu-item-price">$60</span>
+            </div>
+            <span class="menu-item-tagline">Glow up from the ground up.</span>
+            <span class="menu-item-duration">Est. 55 Mins</span>
+            <p class="menu-item-desc">Epsom Salt Soak, Detox Clay Mask w/ Hot Towel Wrap, Callus Treatment, Shea Sugar Glow, Collagen Serum w/ 10 Mins Hot Stone Massage, Hot Paraffin Wax, Shea Butter Lotion, and your choice of polish.</p>
+            <span class="menu-item-perk">🍷 Free Complimentary Wine (Limit 1 Per Customer)</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Cloud 9 (Collagen Pedi)</span>
+              <span class="menu-item-price">$70</span>
+            </div>
+            <span class="menu-item-tagline">Cloud nine? More like cloud toes.</span>
+            <span class="menu-item-duration">Est. 60 Mins · Warm Herbal Neck Pillow</span>
+            <p class="menu-item-desc">Bubble Crystals &amp; Fresh Milk Soak, Callus Treatment, Collagen Sugar Cane w/ Fresh Orange Scrub, Collagen Anti-Aging Cream Mask w/ Hot Towel Wrap, Collagen Muscles Relaxation Gel w/ 20 Mins Hot Stone Massage, Hot Paraffin Wax, Collagen Serum, Collagen Lotion, and your choice of polish.</p>
+            <span class="menu-item-perk">🍷 Free Complimentary Wine (Limit 1 Per Customer)</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Jelly Belly (Jelly Pedi)</span>
+              <span class="menu-item-price">$75</span>
+            </div>
+            <span class="menu-item-tagline">Your feet's favorite flavor of fun!</span>
+            <span class="menu-item-duration">Est. 60 Mins · Warm Herbal Neck Pillow</span>
+            <p class="menu-item-desc">Jelly Foot Bath + Sea Salt, Callus Treatment, Collagen Sugar Cane w/ Orange Scrub, Collagen Anti-Aging Cream Mask w/ Hot Towel Wrap, Collagen Muscles Relaxation Gel w/ 20 Mins Hot Stone Massage, Hot Paraffin Wax, Collagen Serum, Collagen Lotion, and your choice of polish.</p>
+            <span class="menu-item-perk">🍷 Free Complimentary Wine (Limit 1 Per Customer)</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-row">
+              <span class="menu-item-name">Golden Hour (CBD Pedi)</span>
+              <span class="menu-item-price">$90</span>
+            </div>
+            <span class="menu-item-tagline">Where every step feels like a throne walk.</span>
+            <span class="menu-item-duration">Est. 60+ Mins · Warm Herbal Neck Pillow</span>
+            <p class="menu-item-desc">Soothing Steam Treatment, Gold Bath Bomb, CBD Herbal Tea &amp; Fresh Milk Soak, Callus Treatment, CBD Shea Sugar Cane w/ Fresh Orange Scrub, CBD Collagen Anti-Aging Cream Mask w/ Hot Towels Wrap, CBD Muscles Relaxation Gel w/ 30 Mins Hot Stone Massage, Hot Paraffin Wax, Hot Candle Oil, CBD Collagen Serum, CBD Shea Butter Lotion, and your choice of polish.</p>
+            <span class="menu-item-perk">🍷 Free Complimentary Wine (Limit 1 Per Customer)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-subcategory">
+        <div class="menu-addons-header">Add-Ons Available</div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Gel remove w/ service</span><span class="menu-item-price">$5</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Add Gel Polish</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Toenail Repair</span><span class="menu-item-price">1 for $10 / 2 for $15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">French</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Design (2 toes)</span><span class="menu-item-price">$10+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Paraffin</span><span class="menu-item-price">$10</span></div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- KID'S SERVICES -->
+    <div class="menu-panel is-hidden" id="panel-kids">
+
+      <p class="menu-panel-note">For children 10 and younger. Complimentary Drink included (Limit 1 Per Customer).</p>
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Kid's Services</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Regular Polish Fingers</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Regular Polish Toes</span><span class="menu-item-price">$12</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Gel Polish</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Manicure</span><span class="menu-item-price">$20</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Pedicure</span><span class="menu-item-price">$25</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Combo Mani &amp; Pedi</span><span class="menu-item-price">$40</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Combo Gel Mani &amp; Gel Pedi</span><span class="menu-item-price">$65</span></div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ADD-ON SERVICES -->
+    <div class="menu-panel is-hidden" id="panel-add-ons">
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Nail Art &amp; Design</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Nails Art Stickers</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Nails Art Designs</span><span class="menu-item-price">$10+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">3 or More Colors</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">American/French Tips</span><span class="menu-item-price">$5+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Deep French Tips</span><span class="menu-item-price">$15+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Ombre Gel</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Cat Eye</span><span class="menu-item-price">$10+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Cat Eye French</span><span class="menu-item-price">$15+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Clear Chrome</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Color Chrome</span><span class="menu-item-price">$15</span></div></div>
+        </div>
+      </div>
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Other Services</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Nail Repair</span><span class="menu-item-price">$7+/ea</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Soak off Dip/Acrylic/Gel without service</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Soak off Dip/Acrylic/Gel with service</span><span class="menu-item-price">$10</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Regular Polish Change</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Shellac/Gel Polish Change</span><span class="menu-item-price">$30</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Nail Trim</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Toe Nail Trim</span><span class="menu-item-price">$15</span></div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- WAXING SERVICES -->
+    <div class="menu-panel is-hidden" id="panel-waxing">
+
+      <div class="menu-subcategory">
+        <div class="menu-category-header">
+          <h3 class="menu-category-title">Waxing Services</h3>
+          <div class="menu-divider"></div>
+        </div>
+        <div class="menu-items menu-items--grid">
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Eyebrows</span><span class="menu-item-price">$15+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Eyebrows Tint</span><span class="menu-item-price">$20+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Eyebrows Wax + Tint</span><span class="menu-item-price">$45+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Lips</span><span class="menu-item-price">$10+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Chin</span><span class="menu-item-price">$15+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Sideburns</span><span class="menu-item-price">$15</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Full Face with Eyebrows</span><span class="menu-item-price">$50+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Under Arms</span><span class="menu-item-price">$25+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Half Arms</span><span class="menu-item-price">$30+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Full Arms</span><span class="menu-item-price">$45+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Half Legs</span><span class="menu-item-price">$40+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Full Legs</span><span class="menu-item-price">$65+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Chest</span><span class="menu-item-price">$30+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Stomach</span><span class="menu-item-price">$25+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Back</span><span class="menu-item-price">$45+</span></div></div>
+          <div class="menu-item"><div class="menu-item-row"><span class="menu-item-name">Bikini Line</span><span class="menu-item-price">$40+</span></div></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-left">
+    <img src="images/about.jpg" alt="Coloree studio" class="about-photo"/>
+  </div>
+  <div class="about-right">
+    <p class="section-eyebrow fade-up">Our Story</p>
+    <h2 class="about-title fade-up">Behind the Artistry</h2>
+    <p class="about-body">
+      Coloree was born from a simple belief: your nails are a canvas, and you deserve an artist. We built a studio where premium meets artistry with unmatched service and ultimate relaxation. We source the best products, and every technician is trained to listen before they lift a brush.<br><br>
+
+    </p>
+    <button class="btn-about" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Meet the Team</button>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <p class="section-eyebrow fade-up">Recent Work</p>
+  <h2 class="section-title fade-up">Out of the studio,<br><em>onto your hands.</em></h2>
+  <!--
+    GALLERY FOCAL POINT GUIDE
+    Each <img> has class="gallery-img focus-*"
+    Change the focus-* class to control which part of the photo stays visible:
+      focus-top          → top-center  (great for hand shots — keeps fingertips in frame)
+      focus-center       → dead center (default, safe for most photos)
+      focus-bottom       → bottom-center
+      focus-left         → left-center
+      focus-right        → right-center
+      focus-top-left     → top-left corner
+      focus-top-right    → top-right corner
+      focus-bottom-left  → bottom-left corner
+      focus-bottom-right → bottom-right corner
+  -->
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <div class="gallery-fill g1">
+        <img src="images/gallery-1.PNG" alt="" class="gallery-img focus-center"/>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-fill g2">
+        <img src="images/gallery-2.PNG" alt="" class="gallery-img focus-center"/>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-fill g3">
+        <img src="images/gallery-3.PNG" alt="" class="gallery-img focus-center"/>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-fill g4">
+        <img src="images/gallery-4.PNG" alt="" class="gallery-img focus-center"/>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <div class="gallery-fill g5">
+        <img src="images/gallery-5.PNG" alt="" class="gallery-img focus-center"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <p class="section-eyebrow fade-up">Client Love</p>
+  <h2 class="section-title fade-up">Words from<br><em>the chair.</em></h2>
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="review-user">
+        <div class="review-avatar">P</div>
+        <div class="review-meta">
+          <div class="reviewer-name">Priya T.</div>
+          <div class="review-date">on Jan 15, 2025</div>
+        </div>
+        <svg class="review-google" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Google review"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+      </div>
+      <div class="stars">★★★★★</div>
+      <p class="review-title">"Coloree genuinely feels different. Nobody rushes you."</p>
+    </div>
+    <div class="review-card">
+      <div class="review-user">
+        <div class="review-avatar">D</div>
+        <div class="review-meta">
+          <div class="reviewer-name">Devon R.</div>
+          <div class="review-date">on Feb 10, 2025</div>
+        </div>
+        <svg class="review-google" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Google review"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+      </div>
+      <div class="stars">★★★★★</div>
+      <p class="review-title">"The press-on set lasted two weeks without a single pop."</p>
+    </div>
+    <div class="review-card">
+      <div class="review-user">
+        <div class="review-avatar">C</div>
+        <div class="review-meta">
+          <div class="reviewer-name">Camille N.</div>
+          <div class="review-date">on Mar 3, 2025</div>
+        </div>
+        <svg class="review-google" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Google review"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+      </div>
+      <div class="stars">★★★★★</div>
+      <p class="review-title">"It's become my monthly ritual. The studio is perfect."</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+  <div class="booking-left">
+    <p class="section-eyebrow fade-up">Reserve Your Time</p>
+    <h2 class="section-title fade-up">Your chair<br><em>is waiting.</em></h2>
+    <p class="booking-desc">
+      Book early to get your preferred artist and time.
+    </p>
+    <div class="booking-map">
+      <iframe
+        src="https://maps.google.com/maps?q=3624+Austin+Bluffs+Pkwy,+Colorado+Springs,+CO+80918&output=embed&z=15"
+        width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Coloree studio location"></iframe>
+    </div>
+    <div class="booking-info">
+      <div class="booking-info-addr"><span>📍</span><span class="booking-info-addr-text">Suite 120, 3624 Austin Bluffs Pkwy, Colorado Springs, CO 80918<span class="location-hint">Next to King Soopers</span></span></div>
+      <div><span>☎</span><a class="phone-link" href="tel:+17192688900">(719) 268-8900</a></div>
+      <div><span>🕐</span>MON–SAT · 9am–7pm | SUN · 10AM - 6PM</div>
+    </div>
+  </div>
+
+  <div class="booking-form">
+    <div class="form-title">Make a Reservation</div>
+
+    <div class="form-steps">
+      <div class="form-step-indicator is-active" data-step="1">
+        <span class="step-num">1</span>
+        <span class="step-label">Your Service</span>
+      </div>
+      <div class="form-step-connector"></div>
+      <div class="form-step-indicator" data-step="2">
+        <span class="step-num">2</span>
+        <span class="step-label">Add-On Services</span>
+      </div>
+      <div class="form-step-connector"></div>
+      <div class="form-step-indicator" data-step="3">
+        <span class="step-num">3</span>
+        <span class="step-label">Your Info</span>
+      </div>
+      <div class="form-step-connector"></div>
+      <div class="form-step-indicator" data-step="4">
+        <span class="step-num">4</span>
+        <span class="step-label">Review</span>
+      </div>
+    </div>
+
+    <!-- STEP 1: Your Service -->
+    <div class="form-step-panel is-active" id="step-1">
+      <div id="service-slots-container"></div>
+      <button type="button" class="btn-add-service" id="btn-add-service" style="display:none;">+ Add Another Service</button>
+      <div class="form-nav form-nav--end">
+        <button type="button" class="btn-step-next" id="btn-next-1" aria-disabled="true" data-next="2">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: Add-On Services -->
+    <div class="form-step-panel" id="step-2">
+      <p class="form-step-heading">Add-On Services <span class="form-addons-hint">(optional — tap to select)</span></p>
+      <div class="addon-category">
+        <p class="addon-category-label">Nail Art &amp; Design</p>
+        <div class="addon-pills">
+          <button type="button" class="addon-pill">Nails Art Stickers — $5+</button>
+          <button type="button" class="addon-pill">Nails Art Designs — $10+</button>
+          <button type="button" class="addon-pill">3 or More Colors — $5+</button>
+          <button type="button" class="addon-pill">American/French Tips — $5+</button>
+          <button type="button" class="addon-pill">Deep French Tips — $15+</button>
+          <button type="button" class="addon-pill">Ombre Gel — $15</button>
+          <button type="button" class="addon-pill">Cat Eye — $10+</button>
+          <button type="button" class="addon-pill">Cat Eye French — $15+</button>
+          <button type="button" class="addon-pill">Clear Chrome — $10</button>
+          <button type="button" class="addon-pill">Color Chrome — $15</button>
+        </div>
+      </div>
+      <div class="addon-category">
+        <p class="addon-category-label">Other Services</p>
+        <div class="addon-pills">
+          <button type="button" class="addon-pill">Nail Repair — $7+/ea</button>
+          <button type="button" class="addon-pill">Soak off Dip/Acrylic/Gel without service — $15</button>
+          <button type="button" class="addon-pill">Soak off Dip/Acrylic/Gel with service — $10</button>
+          <button type="button" class="addon-pill">Regular Polish Change — $15</button>
+          <button type="button" class="addon-pill">Shellac/Gel Polish Change — $30</button>
+          <button type="button" class="addon-pill">Nail Trim — $15</button>
+          <button type="button" class="addon-pill">Toe Nail Trim — $15</button>
+        </div>
+      </div>
+      <div class="form-nav">
+        <button type="button" class="btn-step-back" data-prev="1">← Back</button>
+        <button type="button" class="btn-step-next" data-next="3">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: Your Info -->
+    <div class="form-step-panel" id="step-3">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="s3-name" placeholder="Your name"/>
+        <p class="form-field-error" id="s3-name-err">Please enter your full name (at least 2 characters).</p>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="tel" id="s3-phone" placeholder="(719) 000-0000"/>
+          <p class="form-field-error" id="s3-phone-err">Please enter a valid 10-digit phone number.</p>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="s3-email" placeholder="you@email.com"/>
+          <p class="form-field-error" id="s3-email-err">Please enter a valid email address.</p>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Preferred Artist</label>
+          <select>
+            <option>No preference</option>
+            <option>Mia Okafor</option>
+            <option>Selene Park</option>
+            <option>Jade Marín</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="s3-date"/>
+        </div>
+        <div class="form-group" id="s3-time-group" style="display:none;">
+          <label>Preferred Time</label>
+          <select id="s3-time">
+            <option value="">Select a time</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-nav">
+        <button type="button" class="btn-step-back" data-prev="2">← Back</button>
+        <button type="button" class="btn-step-next" id="btn-next-3" aria-disabled="true" data-next="4">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: Review -->
+    <div class="form-step-panel" id="step-4">
+      <div class="review-section">
+        <div class="review-section-header">
+          <span class="review-section-label">Your Services</span>
+          <button type="button" class="btn-review-edit" data-go="1">Edit</button>
+        </div>
+        <div id="review-services"></div>
+      </div>
+      <div class="review-section">
+        <div class="review-section-header">
+          <span class="review-section-label">Add-On Services</span>
+          <button type="button" class="btn-review-edit" data-go="2">Edit</button>
+        </div>
+        <div id="review-addons"></div>
+      </div>
+      <div class="review-section">
+        <div class="review-section-header">
+          <span class="review-section-label">Your Info</span>
+          <button type="button" class="btn-review-edit" data-go="3">Edit</button>
+        </div>
+        <div id="review-info"></div>
+      </div>
+      <div class="review-total">
+        <span class="review-total-label">Estimated Total</span>
+        <span class="review-total-price" id="review-price"></span>
+        <p class="review-total-note">Final price confirmed at appointment</p>
+      </div>
+      <div class="form-nav">
+        <button type="button" class="btn-step-back" data-prev="3">← Back</button>
+        <button class="btn-submit">Request Appointment</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <a class="footer-logo" href="#">Coloree</a>
+      <p class="footer-tagline">Natural Beauty, Elevated Care.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#menu" data-tab="nail-extensions">Nail Extensions</a></li>
+        <li><a href="#menu" data-tab="natural-manicures">Natural Manicures</a></li>
+        <li><a href="#menu" data-tab="pedicures">Pedicures</a></li>
+        <li><a href="#menu" data-tab="kids">Kid's Services</a></li>
+        <li><a href="#menu" data-tab="add-ons">Add-On Services</a></li>
+        <li><a href="#menu" data-tab="waxing">Waxing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Studio</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#booking">Book Now</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Hours</h4>
+      <ul>
+        <li>Mon–Sat: 9am–7pm</li>
+        <li>Sun: 10am–6pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Coloree</span>
+    <div class="socials">
+      <a class="social-link social-instagram" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-link social-facebook"  href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="social-link social-youtube"   href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a class="social-link social-yelp"      href="#" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+      <a class="social-link social-tiktok"    href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ── MENU TABS ── */
+(function () {
+  var tabs   = document.querySelectorAll('.menu-tab');
+  var panels = document.querySelectorAll('.menu-panel');
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      tabs.forEach(function (t) { t.classList.remove('is-active'); });
+      panels.forEach(function (p) { p.classList.add('is-hidden'); });
+      tab.classList.add('is-active');
+      var target = document.getElementById('panel-' + tab.dataset.panel);
+      if (target) target.classList.remove('is-hidden');
+    });
+  });
+})();
+
+/* ── SERVICE SLOTS ── */
+(function () {
+  var container = document.getElementById('service-slots-container');
+  var addBtn    = document.getElementById('btn-add-service');
+  var nextBtn   = document.getElementById('btn-next-1');
+  if (!container) return;
+
+  var data = {
+    'nail-extensions': [
+      { g: 'Acrylic', items: [
+        'Full Set with Gel — $55+', 'Refill with Gel — $45+',
+        'White/Pearl Tips Full Set — $50+', 'Color Powder Full Set (same color) — $55+',
+        'Color Powder Refill (same color) — $50+', 'Color Powder Refill (different color) — $55+',
+        'Pink & White Full Set (2 colors) — $65+', 'Pink & White Refill (2 colors) — $60+',
+        'Ombre Full Set (2 colors) — $65+', 'Ombre Refill (2 colors) — $65+'
+      ]},
+      { g: 'Dipping', items: [
+        'Dipping Powder — $50+', 'Dipping Powder w/ tips — $60+',
+        'Pink & White Dipping — $60+', 'Ombre Dipping — $65+'
+      ]},
+      { g: 'Gel Extension', items: ['Full Set — $65', 'Refill — $55'] }
+    ],
+    'natural-manicures': [
+      { g: null, items: [
+        'SHELLAC / GEL Manicure — $40', 'Classic Manicure — $25',
+        'Deluxe Manicure — $35', 'Signature Manicure — $50'
+      ]}
+    ],
+    'pedicures': [
+      { g: null, items: [
+        'Keep It Classic — $35', 'Essential Glow — $50',
+        'Signature Glow — $60', 'Cloud 9 (Collagen Pedi) — $70',
+        'Jelly Belly (Jelly Pedi) — $75', 'Golden Hour (CBD Pedi) — $90'
+      ]}
+    ],
+    'kids': [
+      { g: null, items: [
+        'Regular Polish Fingers — $10', 'Regular Polish Toes — $12',
+        'Gel Polish — $15', 'Manicure — $20', 'Pedicure — $25',
+        'Combo Mani & Pedi — $40', 'Combo Gel Mani & Gel Pedi — $65'
+      ]}
+    ],
+    'waxing': [
+      { g: 'Face', items: [
+        'Eyebrows — $15+', 'Eyebrows Tint — $20+', 'Eyebrows Wax + Tint — $45+',
+        'Lips — $10+', 'Chin — $15+', 'Sideburns — $15', 'Full Face with Eyebrows — $50+'
+      ]},
+      { g: 'Body', items: [
+        'Under Arms — $25+', 'Half Arms — $30+', 'Full Arms — $45+',
+        'Half Legs — $40+', 'Full Legs — $65+', 'Chest — $30+',
+        'Stomach — $25+', 'Back — $45+', 'Bikini Line — $40+'
+      ]}
+    ]
+  };
+
+  var svcAddonsData = {
+    'natural-manicures': [
+      'Gel remove w/ service — $5', 'Acrylic/Dip takeoff w/ manicure — $10',
+      'Paraffin/Collagen Gloves — $10', 'Gel Polish add on — $15'
+    ],
+    'pedicures': [
+      'Gel remove w/ service — $5', 'Add Gel Polish — $15',
+      'Toenail Repair — 1 for $10 / 2 for $15', 'French — $5+',
+      'Design (2 toes) — $10+', 'Paraffin — $10'
+    ]
+  };
+
+  function validateAll() {
+    var slots = container.querySelectorAll('.service-slot');
+    var allOk = true;
+    slots.forEach(function (slot) {
+      var cat = slot.querySelector('.slot-category');
+      var svc = slot.querySelector('.slot-service-input');
+      if (!cat || !cat.value || !svc || !svc.value) allOk = false;
+    });
+    if (nextBtn) nextBtn.setAttribute('aria-disabled', allOk ? 'false' : 'true');
+    if (addBtn) addBtn.style.display = allOk ? '' : 'none';
+  }
+
+  function buildSlot(isFirst) {
+    var slot = document.createElement('div');
+    slot.className = 'service-slot';
+
+    if (!isFirst) {
+      var header = document.createElement('div');
+      header.className = 'slot-header';
+      var slotNum = document.createElement('span');
+      slotNum.className = 'slot-num';
+      slotNum.textContent = 'Additional Service';
+      var removeBtn = document.createElement('button');
+      removeBtn.type = 'button';
+      removeBtn.className = 'btn-remove-slot';
+      removeBtn.textContent = '× Remove';
+      removeBtn.addEventListener('click', function () { slot.remove(); validateAll(); });
+      header.appendChild(slotNum);
+      header.appendChild(removeBtn);
+      slot.appendChild(header);
+    }
+
+    var catGroup = document.createElement('div');
+    catGroup.className = 'form-group';
+    var catLabel = document.createElement('label');
+    catLabel.textContent = 'Service Category';
+    var catSel = document.createElement('select');
+    catSel.className = 'slot-category';
+    [['', 'Select a category'], ['nail-extensions', 'Nail Extensions'],
+     ['natural-manicures', 'Natural Manicures'], ['pedicures', 'Pedicures'],
+     ['kids', "Kid's Services"], ['waxing', 'Waxing Services']
+    ].forEach(function (o) {
+      var opt = document.createElement('option');
+      opt.value = o[0]; opt.textContent = o[1];
+      catSel.appendChild(opt);
+    });
+    var catErr = document.createElement('p');
+    catErr.className = 'form-field-error cat-error';
+    catErr.textContent = 'Please select a service category.';
+    catGroup.appendChild(catLabel);
+    catGroup.appendChild(catSel);
+    catGroup.appendChild(catErr);
+
+    var svcWrap = document.createElement('div');
+    svcWrap.className = 'form-group slot-service-wrap';
+    svcWrap.style.display = 'none';
+    var svcLabel = document.createElement('label');
+    svcLabel.textContent = 'Specific Service';
+    var svcList = document.createElement('div');
+    svcList.className = 'custom-listbox slot-service-list';
+    svcList.setAttribute('role', 'listbox');
+    svcList.setAttribute('tabindex', '0');
+    var svcInput = document.createElement('input');
+    svcInput.type = 'hidden';
+    svcInput.className = 'slot-service-input';
+    svcInput.value = '';
+    var svcErr = document.createElement('p');
+    svcErr.className = 'form-field-error svc-error';
+    svcErr.textContent = 'Please select a specific service.';
+    var svcSelectedRow = document.createElement('div');
+    svcSelectedRow.className = 'svc-selected-row';
+    svcSelectedRow.style.display = 'none';
+    var svcSelectedName = document.createElement('span');
+    svcSelectedName.className = 'svc-selected-name';
+    var btnSvcChange = document.createElement('button');
+    btnSvcChange.type = 'button';
+    btnSvcChange.className = 'btn-svc-change';
+    btnSvcChange.textContent = 'Change';
+    svcSelectedRow.appendChild(svcSelectedName);
+    svcSelectedRow.appendChild(btnSvcChange);
+    svcSelectedRow.addEventListener('click', function () {
+      svcSelectedRow.style.display = 'none';
+      svcList.style.display = '';
+    });
+    svcWrap.appendChild(svcLabel);
+    svcWrap.appendChild(svcList);
+    svcWrap.appendChild(svcSelectedRow);
+    svcWrap.appendChild(svcInput);
+    svcWrap.appendChild(svcErr);
+
+    var addonsWrap = document.createElement('div');
+    addonsWrap.className = 'svc-addons-wrap';
+    addonsWrap.style.display = 'none';
+    var addonsLbl = document.createElement('p');
+    addonsLbl.className = 'svc-addons-label';
+    addonsLbl.textContent = 'Add-Ons for This Service';
+    var addonPills = document.createElement('div');
+    addonPills.className = 'addon-pills slot-addon-pills';
+    addonsWrap.appendChild(addonsLbl);
+    addonsWrap.appendChild(addonPills);
+
+    function selectOption(el, value) {
+      svcList.querySelectorAll('.listbox-option').forEach(function (o) { o.classList.remove('is-selected'); });
+      el.classList.add('is-selected');
+      svcInput.value = value;
+      svcErr.classList.remove('is-visible');
+      svcSelectedName.textContent = value;
+      svcList.style.display = 'none';
+      svcSelectedRow.style.display = '';
+      validateAll();
+    }
+
+    catSel.addEventListener('change', function () {
+      var val = catSel.value;
+      svcList.innerHTML = '';
+      svcList.style.display = '';
+      svcInput.value = '';
+      svcSelectedRow.style.display = 'none';
+      catErr.classList.remove('is-visible');
+      svcErr.classList.remove('is-visible');
+      if (svcAddonsData[val]) {
+        addonPills.innerHTML = '';
+        svcAddonsData[val].forEach(function (item) {
+          var btn = document.createElement('button');
+          btn.type = 'button'; btn.className = 'addon-pill'; btn.textContent = item;
+          btn.addEventListener('click', function () { btn.classList.toggle('is-selected'); });
+          addonPills.appendChild(btn);
+        });
+        addonsWrap.style.display = '';
+      } else {
+        addonPills.innerHTML = '';
+        addonsWrap.style.display = 'none';
+      }
+      if (!val || !data[val]) { svcWrap.style.display = 'none'; validateAll(); return; }
+      data[val].forEach(function (block) {
+        if (block.g) {
+          var lbl = document.createElement('div');
+          lbl.className = 'listbox-group-label';
+          lbl.textContent = block.g;
+          svcList.appendChild(lbl);
+        }
+        block.items.forEach(function (item) {
+          var opt = document.createElement('div');
+          opt.className = 'listbox-option';
+          opt.setAttribute('role', 'option');
+          opt.textContent = item;
+          opt.addEventListener('click', function () { selectOption(opt, item); });
+          svcList.appendChild(opt);
+        });
+      });
+      svcWrap.style.display = '';
+      validateAll();
+    });
+
+    slot.appendChild(catGroup);
+    slot.appendChild(svcWrap);
+    slot.appendChild(addonsWrap);
+    return slot;
+  }
+
+  container.appendChild(buildSlot(true));
+  if (addBtn) {
+    addBtn.addEventListener('click', function () {
+      container.appendChild(buildSlot(false));
+      addBtn.style.display = 'none';
+      validateAll();
+    });
+  }
+  validateAll();
+})();
+
+/* ── FORM WIZARD ── */
+(function () {
+  var indicators = document.querySelectorAll('.form-step-indicator');
+  var panels     = document.querySelectorAll('.form-step-panel');
+
+  /* ── Step 3 validation ── */
+  var s3Name  = document.getElementById('s3-name');
+  var s3Phone = document.getElementById('s3-phone');
+  var s3Email = document.getElementById('s3-email');
+  var s3Date      = document.getElementById('s3-date');
+  var s3Time      = document.getElementById('s3-time');
+  var s3TimeGroup = document.getElementById('s3-time-group');
+  var s3Next      = document.getElementById('btn-next-3');
+  var s3NameErr   = document.getElementById('s3-name-err');
+  var s3PhoneErr  = document.getElementById('s3-phone-err');
+  var s3EmailErr  = document.getElementById('s3-email-err');
+
+  /* Set min date to today so past dates are blocked in the picker */
+  if (s3Date) {
+    var todayStr = new Date().toLocaleDateString('en-CA');
+    s3Date.setAttribute('min', todayStr);
+  }
+
+  /* ── Square availability fetch ── */
+  var SQUARE_LOCATION_ID        = 'YOUR_SQUARE_LOCATION_ID';
+  var SQUARE_SERVICE_VARIATION_ID = 'YOUR_SQUARE_SERVICE_VARIATION_ID';
+
+  async function buildTimeSlots(dateStr) {
+    s3Time.innerHTML = '<option value="">Loading available times…</option>';
+    s3Time.disabled = true;
+    if (!dateStr) return;
+
+    var startRange = dateStr + 'T00:00:00Z';
+    var endRange   = dateStr + 'T23:59:59Z';
+
+    try {
+      var response = await fetch('/api/get-slots', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          startRange,
+          endRange,
+          serviceVariationId: SQUARE_SERVICE_VARIATION_ID,
+          locationId: SQUARE_LOCATION_ID,
+        }),
+      });
+
+      var data = await response.json();
+      s3Time.innerHTML = '';
+
+      if (data.success && data.slots.length > 0) {
+        data.slots.forEach(function (slot) {
+          var opt = document.createElement('option');
+          opt.value = slot.startAt;
+          opt.textContent = new Date(slot.startAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+          s3Time.appendChild(opt);
+        });
+      } else {
+        s3Time.innerHTML = '<option value="">No times available for this date</option>';
+      }
+    } catch (err) {
+      s3Time.innerHTML = '<option value="">Error loading schedule</option>';
+    }
+
+    s3Time.disabled = false;
+    validateStep3();
+  }
+
+  function validName(v)  { return v.trim().length > 1; }
+  function validPhone(v) { return v.replace(/\D/g, '').length === 10; }
+  function validEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); }
+
+  function validateStep3() {
+    var ok = validName(s3Name.value) && validPhone(s3Phone.value) && validEmail(s3Email.value)
+          && !!(s3Date && s3Date.value) && !!(s3Time && s3Time.value);
+    if (s3Next) s3Next.setAttribute('aria-disabled', ok ? 'false' : 'true');
+  }
+
+  if (s3Phone) {
+    s3Phone.addEventListener('input', function () {
+      var d = s3Phone.value.replace(/\D/g, '').slice(0, 10);
+      var fmt = '';
+      if (d.length > 0) fmt = '(' + d.slice(0, 3);
+      if (d.length >= 4) fmt += ') ' + d.slice(3, 6);
+      if (d.length >= 7) fmt += '-' + d.slice(6, 10);
+      s3Phone.value = fmt;
+      validateStep3();
+    });
+  }
+  if (s3Name)  s3Name.addEventListener('input',  validateStep3);
+  if (s3Email) s3Email.addEventListener('input',  validateStep3);
+  if (s3Time)  s3Time.addEventListener('change', validateStep3);
+  if (s3Date) {
+    s3Date.addEventListener('change', function () {
+      s3Time.value = '';
+      s3TimeGroup.style.display = s3Date.value ? '' : 'none';
+      validateStep3();
+      if (s3Date.value) buildTimeSlots(s3Date.value);
+    });
+  }
+
+  function parseBasePrice(text) {
+    var m = (text || '').match(/\$(\d+)/);
+    return m ? parseInt(m[1], 10) : 0;
+  }
+
+  function formatDate(str) {
+    if (!str) return '—';
+    var p = str.split('-');
+    if (p.length !== 3) return str;
+    var mn = ['January','February','March','April','May','June',
+              'July','August','September','October','November','December'];
+    return mn[parseInt(p[1], 10) - 1] + ' ' + parseInt(p[2], 10) + ', ' + p[0];
+  }
+
+  function row(label, value) {
+    var el = document.createElement('div');
+    el.className = 'review-info-row';
+    var lbl = document.createElement('span'); lbl.className = 'review-info-label'; lbl.textContent = label + ': ';
+    var val = document.createElement('span'); val.className = 'review-info-value'; val.textContent = value || '—';
+    el.appendChild(lbl); el.appendChild(val);
+    return el;
+  }
+
+  function populateReview() {
+    var total = 0;
+
+    /* services */
+    var svcEl = document.getElementById('review-services');
+    if (svcEl) {
+      svcEl.innerHTML = '';
+      document.querySelectorAll('.service-slot').forEach(function (slot) {
+        var catSel = slot.querySelector('.slot-category');
+        var svcVal = slot.querySelector('.slot-service-input').value;
+        var catTxt = catSel.options[catSel.selectedIndex].text;
+        total += parseBasePrice(svcVal);
+
+        var wrap = document.createElement('div');
+        wrap.className = 'review-slot';
+        var cat = document.createElement('div'); cat.className = 'review-item-cat'; cat.textContent = catTxt;
+        var svc = document.createElement('div'); svc.className = 'review-item';    svc.textContent = svcVal;
+        wrap.appendChild(cat); wrap.appendChild(svc);
+
+        slot.querySelectorAll('.slot-addon-pills .addon-pill.is-selected').forEach(function (pill) {
+          total += parseBasePrice(pill.textContent);
+          var a = document.createElement('div'); a.className = 'review-item-addon'; a.textContent = '+ ' + pill.textContent;
+          wrap.appendChild(a);
+        });
+        svcEl.appendChild(wrap);
+      });
+    }
+
+    /* add-on services */
+    var addEl = document.getElementById('review-addons');
+    if (addEl) {
+      addEl.innerHTML = '';
+      var step2 = document.getElementById('step-2');
+      var pills = step2 ? step2.querySelectorAll('.addon-pill.is-selected') : [];
+      if (!pills.length) {
+        var none = document.createElement('p'); none.className = 'review-none'; none.textContent = 'None selected';
+        addEl.appendChild(none);
+      } else {
+        pills.forEach(function (pill) {
+          total += parseBasePrice(pill.textContent);
+          var r = document.createElement('div'); r.className = 'review-item'; r.textContent = pill.textContent;
+          addEl.appendChild(r);
+        });
+      }
+    }
+
+    /* your info */
+    var infoEl = document.getElementById('review-info');
+    if (infoEl) {
+      infoEl.innerHTML = '';
+      var s3 = document.getElementById('step-3');
+      if (s3) {
+        var artistSel = s3.querySelector('select');
+        var dateInput = s3.querySelector('input[type="date"]');
+        [
+          ['Name',   s3.querySelector('input[type="text"]').value],
+          ['Phone',  s3.querySelector('input[type="tel"]').value],
+          ['Email',  s3.querySelector('input[type="email"]').value],
+          ['Artist', artistSel ? artistSel.options[artistSel.selectedIndex].text : ''],
+          ['Date',   formatDate(dateInput ? dateInput.value : '')],
+          ['Time',   s3Time && s3Time.value ? s3Time.options[s3Time.selectedIndex].text : '—']
+        ].forEach(function (pair) { infoEl.appendChild(row(pair[0], pair[1])); });
+      }
+    }
+
+    /* price */
+    var priceEl = document.getElementById('review-price');
+    if (priceEl) priceEl.textContent = 'Starting at $' + total;
+  }
+
+  function goTo(n) {
+    indicators.forEach(function (ind, i) {
+      ind.classList.toggle('is-active', i + 1 === n);
+      ind.classList.toggle('is-done',   i + 1 < n);
+    });
+    panels.forEach(function (p, i) {
+      p.classList.toggle('is-active', i + 1 === n);
+    });
+    if (n === 4) populateReview();
+  }
+
+  document.querySelectorAll('.btn-step-next').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (btn.getAttribute('aria-disabled') === 'true') {
+        if (btn.dataset.next === '4') {
+          /* Step 3 field errors */
+          if (s3NameErr)  s3NameErr.classList.toggle('is-visible',  !validName(s3Name ? s3Name.value : ''));
+          if (s3PhoneErr) s3PhoneErr.classList.toggle('is-visible', !validPhone(s3Phone ? s3Phone.value : ''));
+          if (s3EmailErr) s3EmailErr.classList.toggle('is-visible', !validEmail(s3Email ? s3Email.value : ''));
+        } else {
+          /* Step 1 slot errors */
+          document.querySelectorAll('.service-slot').forEach(function (slot) {
+            var cat    = slot.querySelector('.slot-category');
+            var svc    = slot.querySelector('.slot-service-input');
+            var catErr = slot.querySelector('.cat-error');
+            var svcErr = slot.querySelector('.svc-error');
+            if (catErr) catErr.classList.toggle('is-visible', !cat || !cat.value);
+            if (svcErr) svcErr.classList.toggle('is-visible', !!(cat && cat.value && (!svc || !svc.value)));
+          });
+        }
+        return;
+      }
+      goTo(parseInt(btn.dataset.next));
+    });
+  });
+  document.querySelectorAll('.btn-step-back').forEach(function (btn) {
+    btn.addEventListener('click', function () { goTo(parseInt(btn.dataset.prev)); });
+  });
+  document.querySelectorAll('.btn-review-edit').forEach(function (btn) {
+    btn.addEventListener('click', function () { goTo(parseInt(btn.dataset.go)); });
+  });
+})();
+
+/* ── ADDON PILL TOGGLES ── */
+(function () {
+  document.querySelectorAll('.addon-pill').forEach(function (pill) {
+    pill.addEventListener('click', function () {
+      pill.classList.toggle('is-selected');
+    });
+  });
+})();
+
+/* ── FOOTER TAB DEEP-LINKS ── */
+(function () {
+  document.querySelectorAll('[data-tab]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      var tab = document.querySelector('[data-panel="' + link.dataset.tab + '"]');
+      if (tab) tab.click();
+      document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+})();
+
+/* ── TAB SCROLL FADE ── */
+(function () {
+  var wrap = document.querySelector('.menu-tabs-wrap');
+  var bar  = document.querySelector('.menu-tabs');
+  if (!wrap || !bar) return;
+  function update() {
+    var atEnd = bar.scrollLeft >= bar.scrollWidth - bar.clientWidth - 1;
+    wrap.classList.toggle('tabs-at-end', atEnd);
+  }
+  bar.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+
+/* ── FADE-UP ON SCROLL ── */
+(function () {
+  var els = document.querySelectorAll('.fade-up');
+  if (!els.length || !window.IntersectionObserver) {
+    els.forEach(function (el) { el.classList.add('is-visible'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.2 });
+  els.forEach(function (el) { io.observe(el); });
+})();
+
+/* ── MENU DESC EXPAND ── */
+(function () {
+  function initPanel(panel) {
+    if (!panel || panel.dataset.descInit) return;
+    panel.dataset.descInit = '1';
+    panel.querySelectorAll('.menu-item-desc').forEach(function (desc) {
+      var lh   = parseFloat(getComputedStyle(desc).lineHeight);
+      var full = desc.scrollHeight;
+      if (full <= lh + 2) return;
+      desc.classList.add('is-clamped');
+      var expanded = false;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-view-more';
+      btn.textContent = 'View More';
+      btn.addEventListener('click', function () {
+        expanded = !expanded;
+        desc.classList.toggle('is-clamped', !expanded);
+        btn.textContent = expanded ? 'View Less' : 'View More';
+      });
+      desc.insertAdjacentElement('afterend', btn);
+    });
+  }
+
+  initPanel(document.querySelector('.menu-panel:not(.is-hidden)'));
+
+  document.querySelectorAll('.menu-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      initPanel(document.getElementById('panel-' + tab.dataset.panel));
+    });
+  });
+})();
+
+/* ── HERO IMAGE PARALLAX ── */
+(function () {
+  var img   = document.querySelector('.hero-image');
+  var stats = document.querySelector('.hero-stats');
+  if (!img || !stats) return;
+
+  function update() {
+    if (window.innerWidth <= 860) {
+      img.style.transform = 'scale(1)';
+      return;
+    }
+    var scrollY   = window.scrollY;
+    var vh        = window.innerHeight;
+    var rawEnd    = stats.getBoundingClientRect().top + scrollY - vh;
+    var scrollEnd = rawEnd > 0 ? rawEnd : 350;
+    var progress  = Math.min(scrollY / scrollEnd, 1);
+    img.style.transform = 'scale(' + (0.85 + progress * 0.15).toFixed(4) + ')';
+  }
+
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update, { passive: true });
+  update();
+})();
+
+/* ── SERVICES SLIDER ── */
+(function () {
+  var track    = document.querySelector('.services-track');
+  var dotsWrap = document.getElementById('services-dots');
+  var btnPrev  = document.querySelector('.services-arrow--prev');
+  var btnNext  = document.querySelector('.services-arrow--next');
+  if (!track) return;
+
+  var MOBILE_BP     = 860;
+  var CYCLE_MS      = 10000;
+  var RESUME_MS     = 10000;
+  var TRANSITION_MS = 1100; /* matches CSS 1.1s */
+  var current = 0, origTotal = 0, perPage = 0;
+  var cycleTimer = null, resumeTimer = null, resetTimer = null;
+
+  function isMobile() { return window.innerWidth <= MOBILE_BP; }
+
+  /* Clone original slides so the track can scroll right past the last one */
+  function buildClones() {
+    track.querySelectorAll('.is-clone').forEach(function (c) { c.remove(); });
+    track.querySelectorAll('.services-slide:not(.is-clone)').forEach(function (s) {
+      var cl = s.cloneNode(true);
+      cl.classList.add('is-clone');
+      track.appendChild(cl);
+    });
+  }
+
+  function applyWidths() {
+    track.querySelectorAll('.services-slide').forEach(function (s) {
+      s.style.flex = '0 0 ' + (100 / perPage) + '%';
+    });
+  }
+
+  function buildDots(n) {
+    dotsWrap.innerHTML = '';
+    for (var i = 0; i < n; i++) {
+      var d = document.createElement('button');
+      d.type = 'button';
+      d.className = 'services-dot' + (i === 0 ? ' is-active' : '');
+      d.setAttribute('aria-label', 'Slide ' + (i + 1));
+      (function (idx) { d.addEventListener('click', function () { goTo(idx); pauseCycle(); }); }(i));
+      dotsWrap.appendChild(d);
+    }
+  }
+
+  function updateDots(idx) {
+    dotsWrap.querySelectorAll('.services-dot').forEach(function (d, i) {
+      d.classList.toggle('is-active', i === idx % origTotal);
+    });
+  }
+
+  /* Move track to position n; if silent=true, suppress transition for instant reset */
+  function setPos(n, silent) {
+    if (silent) {
+      track.style.transition = 'none';
+      track.style.transform  = 'translateX(-' + (n * 100) + '%)';
+      track.offsetHeight; /* force reflow so transition suppression takes effect */
+      track.style.transition = '';
+    } else {
+      track.style.transform = 'translateX(-' + (n * 100) + '%)';
+    }
+  }
+
+  function goTo(n) {
+    clearTimeout(resetTimer);
+    current = ((n % origTotal) + origTotal) % origTotal;
+    setPos(current, false);
+    updateDots(current);
+  }
+
+  /* Auto-cycle: animate right into the clone page, then silently snap back to 0 */
+  function advanceRight() {
+    var next = current + 1;
+    if (next < origTotal) {
+      current = next;
+      setPos(current, false);
+      updateDots(current);
+    } else {
+      /* Animate into clone page (position = origTotal — visually identical to page 0) */
+      setPos(origTotal, false);
+      updateDots(0);
+      clearTimeout(resetTimer);
+      resetTimer = setTimeout(function () {
+        current = 0;
+        setPos(0, true); /* silent instant reset */
+      }, TRANSITION_MS + 30);
+    }
+  }
+
+  function startCycle() {
+    clearInterval(cycleTimer);
+    cycleTimer = setInterval(advanceRight, CYCLE_MS);
+  }
+
+  function pauseCycle() {
+    clearInterval(cycleTimer);
+    clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(startCycle, RESUME_MS);
+  }
+
+  function setup() {
+    clearInterval(cycleTimer);
+    clearTimeout(resetTimer);
+    var mobile = isMobile();
+    perPage   = mobile ? 1 : 3;
+    origTotal = Math.ceil(track.querySelectorAll('.services-slide:not(.is-clone)').length / perPage);
+    applyWidths();
+    if (btnPrev) btnPrev.style.display = mobile ? 'none' : '';
+    if (btnNext) btnNext.style.display = mobile ? 'none' : '';
+    current = 0;
+    buildDots(origTotal);
+    setPos(0, true);
+    updateDots(0);
+    startCycle();
+  }
+
+  if (btnPrev) btnPrev.addEventListener('click', function () { goTo(current - 1); pauseCycle(); });
+  if (btnNext) btnNext.addEventListener('click', function () { goTo(current + 1); pauseCycle(); });
+
+  /* Touch swipe — low threshold + velocity momentum */
+  var touchStartX = 0, touchStartT = 0;
+  track.addEventListener('touchstart', function (e) {
+    touchStartX = e.changedTouches[0].clientX;
+    touchStartT = Date.now();
+    pauseCycle();
+  }, { passive: true });
+  track.addEventListener('touchend', function (e) {
+    var diff     = touchStartX - e.changedTouches[0].clientX;
+    var velocity = Math.abs(diff) / (Date.now() - touchStartT);
+    if (Math.abs(diff) > 20 || velocity > 0.3) {
+      goTo(diff > 0 ? current + 1 : current - 1);
+    }
+  }, { passive: true });
+
+  buildClones();
+  setup();
+
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      var wasMobile = perPage === 1;
+      if (wasMobile !== isMobile()) { buildClones(); setup(); }
+    }, 150);
+  });
+})();
+</script>
+
+<!-- GALLERY LIGHTBOX (click to open) -->
+<div id="gallery-lightbox" class="gallery-lightbox" role="dialog" aria-modal="true">
+  <button class="gallery-lightbox-close" id="gallery-lightbox-close" aria-label="Close">✕</button>
+  <img src="" alt="" class="gallery-lightbox-img" id="gallery-lightbox-img"/>
+</div>
+
+<script>
+/* ── GALLERY LIGHTBOX ── */
+(function () {
+  var lb      = document.getElementById('gallery-lightbox');
+  var lbImg   = document.getElementById('gallery-lightbox-img');
+  var lbClose = document.getElementById('gallery-lightbox-close');
+  if (!lb) return;
+
+  function open(src) {
+    lbImg.src = src;
+    lb.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.gallery-item').forEach(function (item) {
+    item.addEventListener('click', function () {
+      var img = item.querySelector('.gallery-img');
+      if (img) open(img.src);
+    });
+  });
+
+  lbClose.addEventListener('click', function (e) { e.stopPropagation(); close(); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
+</script>
+</body>
+</html>
